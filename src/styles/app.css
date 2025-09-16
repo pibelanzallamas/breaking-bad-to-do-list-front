@@ -4,4 +4,137 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: "cursiva-cheta";
+  src: url("../assets/BucklaneScript_PERSONAL_USE_ONLY.otf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "big-title";
+  src: url("../assets/Khofira.otf");
+  font-weight: normal;
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.main-dark {
+  background-color: #333;
+}
+
+.main-light {
+  background-color: #fff;
+}
+
+.letra-clara {
+  color: #fff;
+}
+
+.letra-oscura {
+  color: #333;
+}
+
+h1 {
+  font-family: big-title;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+span:nth-child(1) {
+  color: #1e88c5;
+}
+
+span:nth-child(2) {
+  color: #dbdd5a;
+}
+
+span:nth-child(3) {
+  color: #c52020;
+}
+
+span:nth-child(4) {
+  color: #3550c7;
+}
+
+span:nth-child(5) {
+  color: #ca2ecf;
+}
+
+span:nth-child(6) {
+  color: #75c534;
+}
+
+span:nth-child(7) {
+  color: #e3e647;
+}
+
+span:nth-child(8) {
+  color: #da771b;
+}
+
+h2 {
+  font-family: cursiva-cheta;
+  color: #2b5dc7;
+  text-align: center;
+}
+h2 .second-line {
+  display: block;
+}
+h2 span:nth-child(1) {
+  color: #195577;
+}
+h2 span:nth-child(2) {
+  color: #dbdd5a;
+}
+h2 span:nth-child(3) {
+  color: #c52020;
+}
+h2 span:nth-child(4) {
+  color: #3550c7;
+}
+h2 span:nth-child(5) {
+  color: #ca2ecf;
+}
+h2 span:nth-child(6) {
+  color: #75c534;
+}
+h2 span:nth-child(7) {
+  color: #e3e647;
+}
+h2 span:nth-child(8) {
+  color: #da771b;
+}
+h2 span:nth-child(9) {
+  color: #1e88c5;
+}
+h2 span:nth-child(10) {
+  color: #dbdd5a;
+}
+h2 span:nth-child(11) {
+  color: #c52020;
+}
+h2 span:nth-child(12) {
+  color: #3550c7;
+}
+h2 span:nth-child(13) {
+  color: #ca2ecf;
+}
+h2 span:nth-child(14) {
+  color: #75c534;
+}
+h2 span:nth-child(15) {
+  color: #e3e647;
+}
+h2 span:nth-child(16) {
+  color: #da771b;
+}
+h2 span:nth-child(17) {
+  color: #da771b;
+}
+
 /*# sourceMappingURL=app.css.map */
